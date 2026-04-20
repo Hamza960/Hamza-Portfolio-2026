@@ -3,10 +3,16 @@
     'Javascript',
     'CSS',
     'React',
-    'Django',
     'MongoDB',
     'MySQL',
-    'Python'
+    'Next JS',
+    'Node JS',
+    'Docker',
+    'Git',
+    'Figma',
+    'Bootstrap',
+    'Tailwind',
+    'Typescript'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

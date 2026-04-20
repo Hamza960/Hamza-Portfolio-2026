@@ -5,7 +5,7 @@ import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
-import { FaUser, FaFolderOpen } from 'react-icons/fa';
+import { FaUser, FaFolderOpen, FaLaptopCode } from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
@@ -91,7 +91,7 @@ function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-evenly',
-            padding: '0 30px',
+            padding: '0 30px 0px 2px',
             boxSizing: 'border-box',
             border: '2px solid',
             borderColor: theme.primary,
@@ -228,6 +228,24 @@ function Navbar() {
                                     />
                                     <span className={classes.drawerLinks}>
                                         Education
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#experience'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaLaptopCode
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Experience
                                     </span>
                                 </div>
                             </NavLink>
