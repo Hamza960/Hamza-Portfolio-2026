@@ -3,6 +3,7 @@
     'Javascript',
     'CSS',
     'React',
+    'ViteJS',
     'MongoDB',
     'MySQL',
     'Next JS',
@@ -12,7 +13,10 @@
     'Figma',
     'Bootstrap',
     'Tailwind',
-    'Typescript'
+    'Typescript',
+    'MaterialUI',
+    'Azure',
+    'Microsoft Office'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
